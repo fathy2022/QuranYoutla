@@ -1,0 +1,142 @@
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    direction: rtl;
+    /* background-color: #3a6cf4; */
+    background-color: #000;
+}
+
+header {
+    width: 100%;
+    background-color: #000000;
+    z-index: 999;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    display: block;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: #3a6cf4;
+    text-decoration: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #ffffff;
+    transition: 0.7s ease;
+    margin-right: 20px;
+}
+
+.navigation a:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+
+
+.main {
+    padding-top: 100px;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    border: 10px solid ;
+    background-color:#211144;
+    border: 5px solid  white;
+    border-radius: 100px;
+}
+
+.islam-sobhy{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+
+}
+
+.photo a img{
+    border-radius: 100%;
+    width: 250px;
+    
+}
+
+.heading-islam{
+
+}
+.about-islam{
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.about-islam p{
+    color: white;
+    font-size: 1.2em;
+}
+
+.about-islam h2{
+    color: white;
+    margin: 20px 0px;
+}
+
+.about-islam a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin-top:50px;
+    margin-right: 35%;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.about-islam a:hover {
+    color: #3a6cf4;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 540px) {
+    .photo a img{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .container{
+        width: 100%;
+        border-radius: 70px;
+    }
+    .islam-sobhy{
+        display: block;
+    }
+    .main{
+        padding-top: 74px;
+    }
+    .about-islam a{
+        margin-right: 30%;
+    }
+
+}

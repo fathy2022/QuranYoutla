@@ -1,0 +1,219 @@
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    direction: rtl;
+    color: #ffffff;
+    font-family: 'Changa', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+    direction: rtl;
+    background-color: #000;
+}
+
+header {
+    width: 100%;
+    background-color: #000000;
+    z-index: 999;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    display: block;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: #3a6cf4;
+    text-decoration: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #ffffff;
+    transition: 0.7s ease;
+    margin-right: 20px;
+}
+
+.navigation a:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.surah-info{
+    padding: 120px 20px  0  20px ;
+}
+
+.surah-info{
+    font-size: 1.5em;
+}
+
+.main {
+    padding-top: 100px;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    border: 10px solid ;
+    background-color:#211144;
+    border: 5px solid  white;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.islam-sobhy{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+
+}
+
+.photo a img{
+    border-radius: 100%;
+    width: 250px;
+}
+
+.about-islam{
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.about-islam p{
+    color: white;
+    font-size: 1.2em;
+}
+
+.about-islam h2{
+    color: white;
+    margin: 20px 0px;
+}
+
+.surah-link{
+    width: 100%;
+    background-color: rgb(139, 77, 77);
+    text-decoration: none;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.surah-link a{
+    width: 20%;
+    text-decoration: none;
+    float: right;
+    margin: 10px 20px;
+    font-size: 1.7em;
+    padding: 20px 40px;
+    border-radius: 10px 200px;
+
+}
+
+.surah-btn{
+    text-decoration: none;
+    background-color: #211144;
+    color: white;
+    transition: 0.7s ease;
+}
+
+.surah-btn:hover {
+    background-color: #5306fa;
+    transform: scale(1.1);
+}
+
+.footer{
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 100px;
+    background-color: #000000;
+    
+}
+
+.footer p{
+    display: flex;
+    color: #ffffff;
+    background-color: #211144;
+    padding: 10px;
+    padding-right: 40px;
+}
+.desing{
+    padding-right: 1000px;
+}
+@media (max-width: 540px) {
+    .photo a img{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .container{
+        width: 100%;
+        border-radius: 70px 70px 40px 40px;
+    }
+    .islam-sobhy{
+        display: block;
+    }
+    .main{
+        padding-top: 100px;
+    }
+    .surah-link{
+        padding-right: 40px;
+    }
+    .surah-link a{
+        width: 40%;
+        float: right;
+        margin: 2px;
+        font-size: 1.7em;
+        padding: 20px ;
+        border-radius: 20px 100px;
+    
+    }
+    
+    .surah-btn{
+        text-decoration: none;
+        background-color: #211144;
+        color: white;
+        transition: 0.7s ease;
+    }
+    
+    .surah-btn:hover {
+        background-color: #5306fa;
+        transform: scale(1.1);
+    }
+    
+
+
+}
+
+@media (min-width:540px) and (max-width:840px){
+    .surah-link a{
+        width: 20%;
+        text-decoration: none;
+        float: right;
+        margin: 10px 20px;
+        font-size: 1.7em;
+        padding: 15px 15px;
+        border-radius: 10px 200px;
+    }
+    .surah-link{
+        width: 100%;
+        background-color: rgb(139, 77, 77);
+        text-decoration: none;
+        text-align: center;
+        padding-right: 100px;
+    }
+
+}
